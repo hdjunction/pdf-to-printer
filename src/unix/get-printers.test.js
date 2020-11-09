@@ -7,8 +7,8 @@ import getPrinters from "./get-printers";
 jest.mock("../../src/execAsync");
 
 const mockPrinterListStdout = `
-macOS_Printer accepting requests since Tue Aug  9 14:11:49 2016
-Zebra accepting requests since Mon Aug 12 18:29:56 2019
+printer macOS_Printer is idle.  enabled since Tue Aug  9 14:11:49 2016
+printer Zebra is idle.  enabled since Mon Aug 12 18:29:56 2019
     `;
 
 const mockDefaultPrinterStdout = `
